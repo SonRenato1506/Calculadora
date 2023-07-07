@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <textarea name="text" id="text" cols="30" rows="1" disabled></textarea>
+        <table>
+            <tr>
+                <td onclick="resto()">%</td>
+                <td onclick="abre()">(</td>
+                <td onclick="fecha()">)</td>
+                <td onclick="limpa()">AC</td>
+            </tr>
+            <tr>
+                <td onclick="mais()">+</td>
+                <td onclick="seven()">7</td>
+                <td onclick="eight()">8</td>
+                <td onclick="nine()">9</td>
+            </tr>
+            <tr>
+                <td onclick="menos()">-</td>
+                <td onclick="four()">4</td>
+                <td onclick="five()">5</td>
+                <td onclick="six()">6</td>
+            </tr>
+            <tr>
+                <td onclick="vezes()">*</td>
+                <td onclick="one()">1</td>
+                <td onclick="two()">2</td>
+                <td onclick="three()">3</td>
+            </tr>
+            <tr>
+                <td onclick="dividir()">/</td>
+                <td onclick="zero()">0</td>
+                <td onclick="ponto()">.</td>
+                <td onclick="final()">=</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
