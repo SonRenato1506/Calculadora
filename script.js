@@ -3,6 +3,7 @@ text = document.querySelector('textarea')
 function zero () {
     text.value += "0"
 }
+
  
 function one () {
     text.value += "1"
